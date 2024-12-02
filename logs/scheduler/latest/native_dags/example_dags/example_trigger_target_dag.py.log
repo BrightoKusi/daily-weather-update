@@ -1,0 +1,15 @@
+[2024-09-17T11:01:13.976+0000] {processor.py:186} INFO - Started process (PID=7208) to work on /home/ubuntu/parallel_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-09-17T11:01:13.977+0000] {processor.py:914} INFO - Processing file /home/ubuntu/parallel_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-09-17T11:01:13.979+0000] {logging_mixin.py:190} INFO - [2024-09-17T11:01:13.978+0000] {dagbag.py:587} INFO - Filling up the DagBag from /home/ubuntu/parallel_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-09-17T11:01:13.985+0000] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/ubuntu/parallel_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-09-17T11:01:14.069+0000] {logging_mixin.py:190} INFO - [2024-09-17T11:01:14.068+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:example_trigger_target_dag
+[2024-09-17T11:01:14.084+0000] {logging_mixin.py:190} INFO - [2024-09-17T11:01:14.084+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_trigger_target_dag
+[2024-09-17T11:01:14.095+0000] {logging_mixin.py:190} INFO - [2024-09-17T11:01:14.095+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_trigger_target_dag
+[2024-09-17T11:01:14.115+0000] {logging_mixin.py:190} INFO - [2024-09-17T11:01:14.115+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_trigger_target_dag
+[2024-09-17T11:01:14.126+0000] {logging_mixin.py:190} INFO - [2024-09-17T11:01:14.125+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_trigger_target_dag
+[2024-09-17T11:01:14.138+0000] {logging_mixin.py:190} INFO - [2024-09-17T11:01:14.137+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_trigger_target_dag
+[2024-09-17T11:01:14.148+0000] {logging_mixin.py:190} INFO - [2024-09-17T11:01:14.148+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_trigger_target_dag
+[2024-09-17T11:01:14.148+0000] {logging_mixin.py:190} INFO - [2024-09-17T11:01:14.148+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T11:01:14.157+0000] {logging_mixin.py:190} INFO - [2024-09-17T11:01:14.157+0000] {dag.py:3252} INFO - Creating ORM DAG for example_trigger_target_dag
+[2024-09-17T11:01:14.158+0000] {logging_mixin.py:190} INFO - [2024-09-17T11:01:14.158+0000] {dag.py:4156} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-09-17T11:01:14.177+0000] {processor.py:208} INFO - Processing /home/ubuntu/parallel_venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.204 seconds

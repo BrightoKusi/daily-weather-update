@@ -1,0 +1,6 @@
+[2024-09-17T11:01:03.091+0000] {processor.py:186} INFO - Started process (PID=7193) to work on /home/ubuntu/parallel_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-09-17T11:01:03.092+0000] {processor.py:914} INFO - Processing file /home/ubuntu/parallel_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-09-17T11:01:03.093+0000] {logging_mixin.py:190} INFO - [2024-09-17T11:01:03.093+0000] {dagbag.py:587} INFO - Filling up the DagBag from /home/ubuntu/parallel_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-09-17T11:01:03.096+0000] {logging_mixin.py:190} INFO - [2024-09-17T11:01:03.096+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-17T11:01:03.096+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/parallel_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-09-17T11:01:03.129+0000] {processor.py:208} INFO - Processing /home/ubuntu/parallel_venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.043 seconds
